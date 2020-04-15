@@ -1,2 +1,3 @@
-let name = 'Wilson'
+let name = 'Wilson';
 console.log(`Hola ${name} :v !`);
+
