@@ -9,7 +9,12 @@ let salarios = [
     { id: 2, salario: 950 }
 ];
 
-
+/**
+ * Busca un empleado en la bd
+ * 
+ * @param {number} id Id del empleado a busccar
+ * @return {promise} promesa para ser resuelta
+ */
 let getEmpleado = (id) => {
     return new Promise((resolve, reject) => {
         let empleadoDB = empleados.find(empleado => id === empleado.id);
@@ -38,22 +43,22 @@ let getSalario = empleado => {
 
 /* Promesas de manera normal */
 
-// getEmpleado(4).then(
-//     empleado => {
-//         getSalario(empleado).then(
-//             salario => {
-//                 console.log(salario);
+getEmpleado(4).then(
+    empleado => {
+        getSalario(empleado).then(
+            salario => {
+                console.log(salario);
 
-//             },
-//             err => {
-//                 console.log(err);
-//             }
-//         );
-//     },
-//     err => {
-//         console.log(err);
-//     }
-// );
+            },
+            err => {
+                console.log(err);
+            }
+        );
+    },
+    err => {
+        console.log(err);
+    }
+);
 
 /*  Promesas en cadena */
 

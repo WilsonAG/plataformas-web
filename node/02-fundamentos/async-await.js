@@ -2,11 +2,6 @@
  *  Pruebas async await
  */
 
-// const getNombre = async () => {
-//     throw new Error('No existe en BD')
-//     return 'Wilson';
-// }
-
 const getNombre = () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {

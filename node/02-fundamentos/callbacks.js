@@ -2,7 +2,11 @@
 //     console.log('Hola :v');
 // }, 3000);
 
-
+/**
+ *  El segundo parametro de esta funcion es un
+ *  callback,osea otra funcion que nos enviara un error
+ *  o el dato que necesitemos dependiendo el caso. 
+ */
 let getUserById = (id, callback) => {
     let user = {
         name: 'Wilson',
@@ -17,6 +21,10 @@ let getUserById = (id, callback) => {
 
 }
 
+/**
+ * Al usar la funcion el segundo parametro nos va a
+ * devolver un error o los datos del usuario.
+ */
 getUserById(20, (err, user) => {
     if (err) {
         return console.log(err);

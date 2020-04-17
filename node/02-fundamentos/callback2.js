@@ -9,6 +9,11 @@ let salarios = [
     { id: 2, salario: 950 }
 ];
 
+/**
+ * 
+ * @param {number} id Id del usuario a buscar
+ * @param {function} callback Funcion que se encargara de manejar el resultado
+ */
 let getEmpleado = (id, callback) => {
     let empleadoDB = empleados.find(empleado => id === empleado.id);
     if (!empleadoDB) {
@@ -19,6 +24,11 @@ let getEmpleado = (id, callback) => {
     }
 };
 
+/**
+ * 
+ * @param {object} empleado Objeto empleado
+ * @param {Function} callback Funcion que se encargara de manejar el resultado.
+ */
 let getSalario = (empleado, callback) => {
     let salarioDB = salarios.find(salario => salario.id === empleado.id);
     if (!salarioDB) {
@@ -32,6 +42,9 @@ let getSalario = (empleado, callback) => {
     }
 }
 
+/**
+ * Encadenamiendo de callbacks
+ */
 getEmpleado(2, (err, empleado) => {
     if (err) {
         return console.log(err);

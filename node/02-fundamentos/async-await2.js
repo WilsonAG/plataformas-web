@@ -9,6 +9,10 @@ let salarios = [
     { id: 2, salario: 950 }
 ];
 
+/**
+ * Funcion asincrona que devuelve un empleado
+ * @param {number} id id del impleado a buscar
+ */
 let getEmpleado = async id => {
     let empleadoDB = empleados.find(empleado => id === empleado.id);
     if (!empleadoDB) {
@@ -18,6 +22,10 @@ let getEmpleado = async id => {
     }
 };
 
+/**
+ * Funcion asincrona que devuelve el nombre del empleado junto a su salario
+ * @param {object} empleado objeto del tipo empleado
+ */
 let getSalario = async empleado => {
     let salarioDB = salarios.find(salario => salario.id === empleado.id);
     if (!salarioDB) {
@@ -31,12 +39,19 @@ let getSalario = async empleado => {
     }
 }
 
+/**
+ * Funcion asincrona que nos devuelve infromacion de un empleado
+ * @param {number} id id del empleado 
+ */
 const getInformacion = async (id) => {
     let empleado = await getEmpleado(id);
     let resp = await getSalario(empleado);
     return `El salarop de ${resp.nombre} es de ${resp.salario}`;
 }
 
+/**
+ * Ejecucion de una async function
+ */
 getInformacion(4)
     .then(msg => console.log(msg))
     .catch(err => console.log(err));
