@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1587136777 "/home/will/Documents/plataformas-web/Informes/02 - Fundamentos de NodeJS/Aguilar_Wilson-Practica02.tex" "build/Aguilar_Wilson-Practica02.pdf" "Aguilar_Wilson-Practica02" 1587136778
+["pdflatex"] 1587137988 "/home/will/Documents/plataformas-web/Informes/02 - Fundamentos de NodeJS/Aguilar_Wilson-Practica02.tex" "build/Aguilar_Wilson-Practica02.pdf" "Aguilar_Wilson-Practica02" 1587137997
   "/etc/texmf/web2c/texmf.cnf" 1586477444 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/will/Documents/plataformas-web/Informes/02 - Fundamentos de NodeJS/Aguilar_Wilson-Practica02.tex" 1587136775 7581 cbe5109445d043f9628a7f06e72cdd6d ""
+  "/home/will/Documents/plataformas-web/Informes/02 - Fundamentos de NodeJS/Aguilar_Wilson-Practica02.tex" 1587137996 7806 a7079fb16de39bb9c5920c8e49f6fa31 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1136768653 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
@@ -81,7 +81,7 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1488610416 31340 0f53f8665296bf8fe6c697f9505e31d8 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1586477685 2044936 0edf5ca64352b50b145b46ea2ee03d92 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1586477702 3870517 5919d968bfe3dcd0607140e5e14bd3ce ""
-  "Aguilar_Wilson-Practica02.tex" 1587136775 7581 cbe5109445d043f9628a7f06e72cdd6d ""
+  "Aguilar_Wilson-Practica02.tex" 1587137996 7806 a7079fb16de39bb9c5920c8e49f6fa31 ""
   "assets/images/async.png" 1587135933 109872 09629d360a55d1223a3b7b080bddddc9 ""
   "assets/images/await-2.png" 1587136638 63216 84208093e4b2799f5dc250414c21699a ""
   "assets/images/await.png" 1587136514 102074 b6ad9230f334da5c506125bcdb06dd60 ""
@@ -97,10 +97,10 @@
   "assets/images/promesas-2.png" 1587089141 124929 0e3c1a62160ebea118431887d52d8a4f ""
   "assets/images/promesas-3.png" 1587089421 112311 7b3c2c8da15e0eeedfffa9a99fa876a4 ""
   "assets/images/template-literals.png" 1587082534 178990 53807c3853e35c3e731abc441289a143 ""
-  "build/Aguilar_Wilson-Practica02.aux" 1587136778 3451 e2e39f2027cf853b9bd89159249a6e21 ""
-  "build/Aguilar_Wilson-Practica02.out" 1587136778 455 df04c9f9a259887a027cc3474260d856 ""
+  "build/Aguilar_Wilson-Practica02.aux" 1587137989 3560 5da2fa0ce0c7ea04878343e3d6007ff7 ""
+  "build/Aguilar_Wilson-Practica02.out" 1587137989 520 b4d46500fcaf48c3f1343f7eb21805a7 ""
   (generated)
   "build/Aguilar_Wilson-Practica02.log"
   "build/Aguilar_Wilson-Practica02.out"
-  "build/Aguilar_Wilson-Practica02.aux"
   "build/Aguilar_Wilson-Practica02.pdf"
+  "build/Aguilar_Wilson-Practica02.aux"
