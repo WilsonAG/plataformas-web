@@ -24,18 +24,18 @@ const colors = require('colors');
 //     })
 // }
 
-const createFile = async base => {
-    if (isNaN(base)) {
-        throw new Error(`El valor de la base ${base} debe ser un numero.`.red)
+const createFile = async (base, limite = 10) => {
+    if (isNaN(base) || isNaN(limite)) {
+        throw new Error(`Los argumentos enviados deben ser un numero.`.red)
     }
 
     let data = '';
 
-    for (let i = 1; i <= 10; i++) {
+    for (let i = 1; i <= limite; i++) {
         data += `${base} * ${i} = ${base * i}\n`;
     }
 
-    await fs.writeFile(`tablass/tabla-${base}.txt`, data)
+    await fs.writeFile(`tablas/tabla-${base}.txt`, data)
         .catch(err => { throw new Error(err.message.red) });
 
     return `Archivo con tabla del ${base} creado!!`.green
@@ -43,6 +43,9 @@ const createFile = async base => {
 }
 
 const listarTabla = (base, limite) => {
+    if (isNaN(base) || isNaN(limite)) {
+        throw new Error(`Los argumentos enviados deben ser un numero.`.red)
+    }
     let data = `
 ===============================================
                 TABLA DEL ${base}          

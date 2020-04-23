@@ -14,11 +14,12 @@ switch (comando) {
 
     case 'crear':
         // console.log(argv);
-        createFile(base)
+        createFile(base, limite)
             .then(msj => console.log(msj))
             .catch(err => console.log(err.message))
         break;
     default:
+
         break;
 }
 
