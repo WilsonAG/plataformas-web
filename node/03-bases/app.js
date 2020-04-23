@@ -16,7 +16,7 @@ switch (comando) {
         // console.log(argv);
         createFile(base)
             .then(msj => console.log(msj))
-            .catch(err => console.log(err))
+            .catch(err => console.log(err.message))
         break;
     default:
         break;
