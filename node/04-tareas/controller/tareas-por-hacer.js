@@ -52,7 +52,7 @@ const update = (description, completed = true) => {
 
 const deleteTask = description => {
     load()
-    newToDoList = toDoList.filter(task => task.description !== description)
+    let newToDoList = toDoList.filter(task => task.description !== description)
     if (newToDoList.length === toDoList.length) {
         return false
     }
@@ -60,8 +60,6 @@ const deleteTask = description => {
     save()
     return true
 }
-
-
 
 module.exports = {
     add,
