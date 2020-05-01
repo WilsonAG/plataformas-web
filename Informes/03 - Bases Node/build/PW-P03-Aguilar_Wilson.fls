@@ -1,8 +1,8 @@
-PWD /home/will/Documentos/plataformas-web/Informes/03
+PWD /home/will/Documentos/plataformas-web/Informes/03 - Bases Node
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/will/Documentos/plataformas-web/Informes/03/PW-P03-Aguilar_Wilson.tex
-OUTPUT /home/will/Documentos/plataformas-web/Informes/03/build/PW-P03-Aguilar_Wilson.log
+INPUT /home/will/Documentos/plataformas-web/Informes/03 - Bases Node/PW-P03-Aguilar_Wilson.tex
+OUTPUT /home/will/Documentos/plataformas-web/Informes/03 - Bases Node/build/PW-P03-Aguilar_Wilson.log
 INPUT /usr/share/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texmf-dist/tex/latex/base/size12.clo
@@ -76,9 +76,9 @@ INPUT /usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT /home/will/Documentos/plataformas-web/Informes/03/build/PW-P03-Aguilar_Wilson.aux
-INPUT /home/will/Documentos/plataformas-web/Informes/03/build/PW-P03-Aguilar_Wilson.aux
-OUTPUT /home/will/Documentos/plataformas-web/Informes/03/build/PW-P03-Aguilar_Wilson.aux
+INPUT /home/will/Documentos/plataformas-web/Informes/03 - Bases Node/build/PW-P03-Aguilar_Wilson.aux
+INPUT /home/will/Documentos/plataformas-web/Informes/03 - Bases Node/build/PW-P03-Aguilar_Wilson.aux
+OUTPUT /home/will/Documentos/plataformas-web/Informes/03 - Bases Node/build/PW-P03-Aguilar_Wilson.aux
 INPUT /usr/share/texmf-dist/tex/latex/lm/t1lmr.fd
 INPUT /usr/share/texmf-dist/tex/latex/lm/t1lmr.fd
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm
@@ -94,14 +94,14 @@ INPUT /usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 INPUT /usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT /home/will/Documentos/plataformas-web/Informes/03/build/PW-P03-Aguilar_Wilson.out
-INPUT /home/will/Documentos/plataformas-web/Informes/03/build/PW-P03-Aguilar_Wilson.out
-INPUT /home/will/Documentos/plataformas-web/Informes/03/build/PW-P03-Aguilar_Wilson.out
-INPUT /home/will/Documentos/plataformas-web/Informes/03/build/PW-P03-Aguilar_Wilson.out
-OUTPUT /home/will/Documentos/plataformas-web/Informes/03/build/PW-P03-Aguilar_Wilson.pdf
-INPUT /home/will/Documentos/plataformas-web/Informes/03/build/PW-P03-Aguilar_Wilson.out
-INPUT /home/will/Documentos/plataformas-web/Informes/03/build/PW-P03-Aguilar_Wilson.out
-OUTPUT /home/will/Documentos/plataformas-web/Informes/03/build/PW-P03-Aguilar_Wilson.out
+INPUT /home/will/Documentos/plataformas-web/Informes/03 - Bases Node/build/PW-P03-Aguilar_Wilson.out
+INPUT /home/will/Documentos/plataformas-web/Informes/03 - Bases Node/build/PW-P03-Aguilar_Wilson.out
+INPUT /home/will/Documentos/plataformas-web/Informes/03 - Bases Node/build/PW-P03-Aguilar_Wilson.out
+INPUT /home/will/Documentos/plataformas-web/Informes/03 - Bases Node/build/PW-P03-Aguilar_Wilson.out
+OUTPUT /home/will/Documentos/plataformas-web/Informes/03 - Bases Node/build/PW-P03-Aguilar_Wilson.pdf
+INPUT /home/will/Documentos/plataformas-web/Informes/03 - Bases Node/build/PW-P03-Aguilar_Wilson.out
+INPUT /home/will/Documentos/plataformas-web/Informes/03 - Bases Node/build/PW-P03-Aguilar_Wilson.out
+OUTPUT /home/will/Documentos/plataformas-web/Informes/03 - Bases Node/build/PW-P03-Aguilar_Wilson.out
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmr17.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm
 INPUT /usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
@@ -158,9 +158,9 @@ INPUT ./assets/images/yargs-opt.png
 INPUT assets/images/colors.png
 INPUT ./assets/images/colors.png
 INPUT ./assets/images/colors.png
-INPUT /home/will/Documentos/plataformas-web/Informes/03/build/PW-P03-Aguilar_Wilson.aux
-INPUT /home/will/Documentos/plataformas-web/Informes/03/build/PW-P03-Aguilar_Wilson.out
-INPUT /home/will/Documentos/plataformas-web/Informes/03/build/PW-P03-Aguilar_Wilson.out
+INPUT /home/will/Documentos/plataformas-web/Informes/03 - Bases Node/build/PW-P03-Aguilar_Wilson.aux
+INPUT /home/will/Documentos/plataformas-web/Informes/03 - Bases Node/build/PW-P03-Aguilar_Wilson.out
+INPUT /home/will/Documentos/plataformas-web/Informes/03 - Bases Node/build/PW-P03-Aguilar_Wilson.out
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb
