@@ -402,19 +402,19 @@ LaTeX Info: Redefining \% on input line 25.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
 Package rerunfilecheck Info: File `PW-P03-Aguilar_Wilson.out' has not changed.
-(rerunfilecheck)             Checksum: EDBF9687549EF1141C41847BA520567A;794.
+(rerunfilecheck)             Checksum: 391952C665486E8BC5057DD437114F22;808.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 187.
  ) 
 Here is how much of TeX's memory you used:
  9498 strings out of 492167
- 133770 string characters out of 6131558
+ 133780 string characters out of 6131558
  424206 words of memory out of 5000000
  13729 multiletter control sequences out of 15000+600000
  47996 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  31i,9n,37p,472b,1649s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on /home/will/Documentos/plataformas-web/Informes/03/build/PW-P03-Aguilar_Wilson.pdf (6 pages, 501746 bytes).
+Output written on /home/will/Documentos/plataformas-web/Informes/03/build/PW-P03-Aguilar_Wilson.pdf (6 pages, 501736 bytes).
 PDF statistics:
  133 PDF objects out of 1000 (max. 8388607)
  105 compressed objects within 2 object streams
