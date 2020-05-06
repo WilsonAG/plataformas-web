@@ -8,12 +8,16 @@ const completed = {
     default: true,
     alias: 'c',
     desc: 'Marca como completado o pendiente la tarea'
-
 }
+
+
 
 const argv = require('yargs')
     .command('list', 'Muestra la lista de tareas', {
-
+        completed: {
+            alias: 'c',
+            desc: 'Filtra listado por taread completadas o no completadas'
+        }
     })
     .command('add', 'Crear una nueva tarea', {
         description

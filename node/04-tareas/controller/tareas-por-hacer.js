@@ -27,6 +27,22 @@ const list = () => {
     console.log('============================================='.green)
 }
 
+const listByCompleted = (completed) => {
+    load()
+    completed = (completed == 'true')
+    const filteredList =
+        toDoList.filter(task => task.isCompleted == completed);
+    if (filteredList) {
+        console.log('=============== To Do List =================='.green)
+        filteredList.forEach(task => {
+            console.log(`Tarea: ${task.description}`)
+            console.log(`Estado: ${task.isCompleted}\n`)
+
+        })
+        console.log('============================================='.green)
+    }
+}
+
 const add = description => {
     load()
     let task = {
@@ -65,5 +81,6 @@ module.exports = {
     add,
     list,
     update,
-    deleteTask
+    deleteTask,
+    listByCompleted
 }

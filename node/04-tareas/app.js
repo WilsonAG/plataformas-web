@@ -3,9 +3,15 @@ const toDoList = require('./controller/tareas-por-hacer');
 
 let command = argv._[0]
 
+console.log(argv)
 switch (command) {
     case 'list':
-        toDoList.list()
+        if (argv.completed) {
+            toDoList.listByCompleted(argv.completed)
+        } else {
+
+            toDoList.list()
+        }
         break;
     case 'add':
         let newTask = toDoList.add(argv.description)
