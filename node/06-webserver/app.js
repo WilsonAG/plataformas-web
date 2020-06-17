@@ -1,5 +1,7 @@
 const http = require('http');
 
+const port = process.env.PORT || 3000
+
 http
     .createServer((req, res) => {
         // res.write('<h1>Hola mundo</h1>')
@@ -15,4 +17,4 @@ http
         res.write(JSON.stringify(response));
         res.end();
     })
-    .listen(3000);
+    .listen(port);

@@ -1,22 +1,29 @@
 const express = require('express');
+const hbs = require('hbs');
 
 const app = express();
 
-const port = 3000;
+const port = process.env.PORT || 3000;
 
-app.use(express.static('public'))
+app.use(express.static('public'));
+
+app.set('view engine', 'hbs');
+
+hbs.registerPartials('views/partials');
+
+require('./hbs/helpers');
 
 app.get('/', (req, res) => {
     // console.log(req)
-    res.send({
+    res.render('home', {
         name: 'Will',
-        lastname: 'AG',
-        url: req.url
     });
 });
 
 app.get('/about', (req, res) => {
-    res.send('<h1>About Page with Express</h1>');
+    res.render('about', {
+        title: 'About Page',
+    });
 });
 
 app.listen(port, () => {

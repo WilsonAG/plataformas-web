@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "dev": "nodemon server"
+        "start": "node server",
+        "dev": "nodemon server -e 'js,html,hbs,css'"
     },
     "keywords": [],
     "author": "",
@@ -13,6 +14,7 @@
         "nodemon": "^2.0.4"
     },
     "dependencies": {
-        "express": "^4.17.1"
+        "express": "^4.17.1",
+        "hbs": "^4.1.1"
     }
 }
