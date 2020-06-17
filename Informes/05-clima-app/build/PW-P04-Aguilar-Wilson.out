@@ -1,0 +1,9 @@
+\BOOKMARK [1][-]{section.1}{Inicio del proyecto y dependencias}{}% 1
+\BOOKMARK [1][-]{section.2}{Configuraci\363n de yargs}{}% 2
+\BOOKMARK [1][-]{section.3}{Consumo de servicios}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Open Weather Map}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Solicitar datos}{section.3}% 5
+\BOOKMARK [1][-]{section.4}{Axios}{}% 6
+\BOOKMARK [2][-]{subsection.4.1}{Configurando Axios}{section.4}% 7
+\BOOKMARK [1][-]{section.5}{Peticion desde axios}{}% 8
+\BOOKMARK [1][-]{section.6}{App}{}% 9
