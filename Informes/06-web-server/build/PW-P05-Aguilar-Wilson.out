@@ -1,0 +1,10 @@
+\BOOKMARK [1][-]{section.1}{Configuraciones iniciales}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{M\363dulo http de node}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Express}{section.1}% 3
+\BOOKMARK [1][-]{section.2}{Contenido est\341tico}{}% 4
+\BOOKMARK [1][-]{section.3}{Motor de platillas}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Handlebars}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Partials}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{Helpers}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{Subiendo a producci\363n}{}% 9
+\BOOKMARK [1][-]{section.5}{Repositorio en Github}{}% 10
